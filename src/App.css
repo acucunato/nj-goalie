@@ -10,18 +10,25 @@
 
 /* #d5e7f2  */
 
-h1 {
+h1,
+h2,
+h5 {
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 
 body {
   font-family: "Quattrocento", serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* JUMBTRON */
 
 header.masthead {
-  padding-top: 200px;
+  padding-top: 300px;
   margin-top: 100px;
   padding-bottom: calc(10rem - 4.5rem);
   background: url("./img/jumbotronimg.jpg"),
@@ -49,4 +56,37 @@ header.masthead {
   max-width: 80%;
   height: auto;
   margin: 0 auto;
+}
+
+/* about homepage */
+
+.aboutHeadline {
+  font-weight: bold;
+  color: #25608d;
+}
+
+.page-section-about {
+  padding: 8rem 0;
+  background-color: #f8f9fa;
+}
+
+.goalieGloves {
+  /* margin-left: 2%; */
+  float: left;
+  height: 250px;
+  padding-right: 20px;
+}
+
+.text-muted {
+  margin-left: 60px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 375px) {
+  .goalieGloves {
+    margin-right: 0;
+    padding-right: 0;
+    height: 225px;
+    margin-bottom: 16px;
+  }
 }

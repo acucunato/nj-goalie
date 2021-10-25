@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import lrglogoblue from "../img/njgoalkeeperlrg.png";
 
 //  navigation bar
@@ -6,9 +7,11 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top p-4">
       <div className="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src={lrglogoblue} alt="" width="200px" height="62px" />
-        </a>
+        <Link to="/">
+          <a class="navbar-brand" href="#top">
+            <img src={lrglogoblue} alt="" width="200px" height="62px" />
+          </a>
+        </Link>
         <button
           className="navbar-toggler me-2"
           type="button"
@@ -26,24 +29,32 @@ function Nav() {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
+              <Link to="/">
+                <a className="nav-link active" aria-current="page" href="#home">
+                  Home
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Training
-              </a>
+              <Link to="/about">
+                <a className="nav-link" href="#about">
+                  About
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                About
-              </a>
+              <Link to="/training">
+                <a className="nav-link" href="#training">
+                  Training
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact
-              </a>
+              <Link to="/contact">
+                <a className="nav-link" href="#contact">
+                  Contact
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
