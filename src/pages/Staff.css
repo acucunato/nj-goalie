@@ -1,0 +1,22 @@
+.pagesHeader {
+  padding-top: 200px;
+  margin-top: 100px;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: url("../img/soccerfieldwithball.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coachingExperienceList {
+  padding-left: 0;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.fa-futbol {
+  color: #25608d;
+}

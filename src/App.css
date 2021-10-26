@@ -15,14 +15,22 @@ h2,
 h5 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 body {
   font-family: "Quattrocento", serif;
+  letter-spacing: 0.4px;
 }
 
 a {
   text-decoration: none;
+}
+
+.horizontal-line {
+  border-top: 3px solid #a4b4bf;
+  width: 30%;
+  margin: 0 auto;
 }
 
 /* JUMBTRON */
@@ -71,7 +79,6 @@ header.masthead {
 }
 
 .goalieGloves {
-  /* margin-left: 2%; */
   float: left;
   height: 250px;
   padding-right: 20px;
@@ -82,7 +89,7 @@ header.masthead {
   margin: 0px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .goalieGloves {
     margin-right: 0;
     padding-right: 0;

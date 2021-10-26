@@ -30,28 +30,35 @@ function Nav() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link to="/">
-                <a className="nav-link active" aria-current="page" href="#home">
+                <a className="nav-link" aria-current="page" href="/">
                   Home
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/about">
-                <a className="nav-link" href="#about">
+                <a className="nav-link" href="/about">
                   About
                 </a>
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/staff">
+                <a className="nav-link" href="/staff">
+                  Staff
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/training">
-                <a className="nav-link" href="#training">
+                <a className="nav-link" href="/training">
                   Training
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/contact">
-                <a className="nav-link" href="#contact">
+                <a className="nav-link" href="/contact">
                   Contact
                 </a>
               </Link>
