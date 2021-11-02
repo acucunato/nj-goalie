@@ -29,7 +29,7 @@ a {
 
 .horizontal-line {
   border-top: 3px solid #a4b4bf;
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -87,6 +87,14 @@ header.masthead {
 .text-muted {
   margin-left: 60px;
   margin: 0px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.fa-futbol {
+  color: #25608d;
 }
 
 @media screen and (max-width: 400px) {
