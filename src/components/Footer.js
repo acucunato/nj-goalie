@@ -4,7 +4,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="navbar-light bg-light py-5 sticky-bottom">
+    <footer class="navbar-light bg-light py-5 fixed-bottom footer">
       <div class="container">
         <div class="small text-center text-muted">
           Copyright © 2021 • NJ Goalkeeper Development Academy
