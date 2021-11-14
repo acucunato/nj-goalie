@@ -23,7 +23,7 @@ function Training() {
         </p>
       </div>
       <div className="mx-5 mt-3 text-center">
-        <h5 className="dk-blue-header">Types of Focus</h5>
+        <h5 className="dk-blue-header">Areas of Focus</h5>
         <ul className="trainingList">
           <li className="list-item">
             <i class="far fa-futbol px-2"></i>Footwork

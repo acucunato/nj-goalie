@@ -10,9 +10,6 @@ function Jumbotron() {
           <h1 className="col-lg-10 align-self-end headline">
             NJ Goalkeeper Development Academy
           </h1>
-          <div className="col-lg-8 align-self-baseline">
-            <p className="tagLine">tagline</p>
-          </div>
         </div>
       </div>
     </header>

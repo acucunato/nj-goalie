@@ -59,7 +59,7 @@ function Staff() {
           <ul className="coachingExperienceList">
             <li className="list-item">
               <i class="far fa-futbol px-2"></i>
-              Licensed Coach
+              USSF Licensed Coach
             </li>
             <li className="list-item">
               <i class="far fa-futbol px-2"></i>NSCAA/ United Soccer Coaches

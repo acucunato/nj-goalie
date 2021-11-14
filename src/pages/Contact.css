@@ -1,0 +1,14 @@
+.fa-envelope,
+.fa-phone {
+  color: #25608d;
+}
+
+.phone-number,
+.email-address {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.phone-number:hover,
+.email-address:hover {
+  color: rgba(0, 0, 0, 0.65);
+}
