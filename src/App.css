@@ -97,7 +97,7 @@ header.masthead {
   color: #25608d;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
   .goalieGloves {
     margin-right: 0;
     padding-right: 0;
